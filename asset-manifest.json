@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alx-react/static/css/main.2bd9ed1c.css",
+    "main.js": "/alx-react/static/js/main.980b262b.js",
+    "static/js/453.59b8a61b.chunk.js": "/alx-react/static/js/453.59b8a61b.chunk.js",
+    "static/media/logo.jpg": "/alx-react/static/media/logo.24bab5d633e36ca8d17e.jpg",
+    "index.html": "/alx-react/index.html",
+    "main.2bd9ed1c.css.map": "/alx-react/static/css/main.2bd9ed1c.css.map",
+    "main.980b262b.js.map": "/alx-react/static/js/main.980b262b.js.map",
+    "453.59b8a61b.chunk.js.map": "/alx-react/static/js/453.59b8a61b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bd9ed1c.css",
+    "static/js/main.980b262b.js"
+  ]
+}
