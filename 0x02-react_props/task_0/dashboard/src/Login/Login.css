@@ -1,0 +1,32 @@
+.App-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.App-input p {
+  width: 70%;
+  font-size: 1.4rem;
+  text-align: left;
+  margin-top: 3rem;
+}
+.App-input label {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+.App-input input {
+  width: 10%;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  border: 1px solid lightgray;
+}
+.App-input button {
+  font-size: 1rem;
+  padding: 0.2rem 0.6rem;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: inherit;
+  cursor: pointer;
+}
