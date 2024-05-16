@@ -1,0 +1,56 @@
+.Notifications {
+  width: 95%;
+  border: 1px dashed #e0354b;
+  padding: 1rem;
+  margin-left: 3.4rem;
+  margin-top: 0.5rem;
+}
+
+.Notifications button {
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+
+.Notifications button img {
+  width: 1.5em;
+  height: auto;
+  float: right;
+}
+.Notifications p {
+  font-size: 1.6rem;
+  margin: 0.8rem 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+}
+li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+li[data-notification-type="default"],
+li[data-notification-type="default"]:before {
+  color: blue;
+}
+
+li[data-notification-type="urgent"],
+li[data-notification-type="urgent"]:before {
+  color: red;
+}
